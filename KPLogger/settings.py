@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-f*b7po^7#+14)hawcdxd5eg0x&667g1@p58ekyiw$e#(gl2376
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1", "*.vercel.app"]
 
+WSGI_APPLICATION = 'KPLogger.wsgi.app'
 
 # Application definition
 
