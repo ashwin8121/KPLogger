@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "KPLogger/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "KPLogger/wsgi.py"
+    }
+  ]
+}
